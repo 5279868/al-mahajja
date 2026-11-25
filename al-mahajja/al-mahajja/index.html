@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="المحجة البيضاء - منصة لتحفيظ القرآن الكريم عن بعد">
+  <title>المحجة البيضاء | لتحفيظ القرآن الكريم عن بعد</title>
+  <link rel="icon" type="image/png" href="assets/img/emblem.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.54-3.69 8.24-8.23 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-twitter" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04 4.28 4.28 0 0 0-7.29 3.9A12.14 12.14 0 0 1 3.15 4.8a4.28 4.28 0 0 0 1.33 5.71 4.27 4.27 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.43 4.2 4.3 4.3 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.97A8.59 8.59 0 0 1 2 19.54a12.1 12.1 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.19l-.01-.56A8.7 8.7 0 0 0 22.46 6Z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></symbol>
+    <symbol id="i-telegram" viewBox="0 0 24 24"><path fill="currentColor" d="M21.94 4.3 18.9 19.04c-.23 1.03-.83 1.29-1.69.8l-4.66-3.44-2.25 2.17c-.25.25-.46.46-.94.46l.33-4.74 8.63-7.8c.38-.33-.08-.52-.58-.19L7.07 13.03 2.48 11.6c-1-.31-1.02-1 .21-1.48l17.94-6.92c.83-.31 1.56.19 1.31 1.1Z"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-4.42 0-8 2.24-8 5v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1c0-2.76-3.58-5-8-5Z"/></symbol>
+  </svg>
+
+  <!-- ============ Top bar ============ -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <ul class="socials" aria-label="وسائل التواصل الاجتماعي">
+        <li><a href="#" aria-label="واتساب"><svg><use href="#i-whatsapp"/></svg></a></li>
+        <li><a href="#" aria-label="انستغرام"><svg><use href="#i-instagram"/></svg></a></li>
+        <li><a href="#" aria-label="تويتر"><svg><use href="#i-twitter"/></svg></a></li>
+        <li><a href="#" aria-label="يوتيوب"><svg><use href="#i-youtube"/></svg></a></li>
+        <li><a href="#" aria-label="تيليجرام"><svg><use href="#i-telegram"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============ Header ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="brand" aria-label="المحجة البيضاء - الرئيسية">
+        <img src="assets/img/logo.png" alt="المحجة البيضاء لتحفيظ القرآن الكريم عن بعد" width="201" height="53">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link is-active">الرئيسية</a></li>
+          <li><a href="#courses" class="nav__link">الدورات</a></li>
+          <li><a href="#about" class="nav__link">الحلقات</a></li>
+          <li><a href="#jobs" class="nav__link">التوظيف</a></li>
+          <li><a href="#about" class="nav__link">عن المحجة</a></li>
+          <li><a href="#contact" class="nav__link">تواصل معنا</a></li>
+        </ul>
+        <a href="#" class="btn btn--primary nav__cta-mobile">تسجيل دخول</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#" class="btn btn--primary header__cta">تسجيل دخول</a>
+        <button class="burger" id="burger" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <main>
+    <!-- ============ Hero slider ============ -->
+    <section class="hero" id="home">
+      <div class="container hero__wrap">
+        <button class="hero__arrow hero__arrow--prev" aria-label="الشريحة السابقة"><svg><use href="#i-chevron"/></svg></button>
+
+        <div class="slider" id="slider">
+          <div class="slider__track">
+            <article class="slide is-active">
+              <img src="assets/img/hero.png" alt="مسابقة حفظ الأحاديث الأربعين الوقفية">
+              <div class="slide__caption">
+                <h2 class="slide__title">دورة تحفيظ القرآن للطلاب من عمر 6 إلى 12 عاما</h2>
+                <span class="slide__price">رسوم التسجيل: 45 ريال</span>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="assets/img/course-1.png" alt="حلقة تحفيظ للطالبات">
+              <div class="slide__caption">
+                <h2 class="slide__title">حلقات تحفيظ للطالبات بإشراف معلمات متخصصات</h2>
+                <span class="slide__price">رسوم التسجيل: 45 ريال</span>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="assets/img/course-2.png" alt="حلقة تحفيظ في المسجد">
+              <div class="slide__caption">
+                <h2 class="slide__title">دورة التجويد وأحكام التلاوة للمبتدئين</h2>
+                <span class="slide__price">رسوم التسجيل: 60 ريال</span>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="assets/img/course-3.png" alt="طلاب في حلقة قرآن">
+              <div class="slide__caption">
+                <h2 class="slide__title">برنامج المراجعة والتثبيت لحفظة القرآن الكريم</h2>
+                <span class="slide__price">رسوم التسجيل: 50 ريال</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <button class="hero__arrow hero__arrow--next" aria-label="الشريحة التالية"><svg><use href="#i-chevron"/></svg></button>
+      </div>
+      <div class="slider__dots" id="sliderDots" role="tablist" aria-label="التنقل بين الشرائح"></div>
+    </section>
+
+    <!-- ============ Stats ============ -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div class="stat reveal">
+          <div class="stat__icon">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3Zm-6.5 9.97v4.03L12 21l6.5-4v-4.03L12 16.5l-6.5-3.53Z"/></svg>
+          </div>
+          <strong class="stat__num" data-count="2320">0</strong>
+          <span class="stat__label">الطلاب والطالبات</span>
+        </div>
+        <div class="stat reveal">
+          <div class="stat__icon">
+            <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-7 18c0-3.31 3.13-6 7-6s7 2.69 7 6v1H5v-1Zm11.5-7.5 3-1.5v4l-3 1.5v-4Zm-9 0v4l-3-1.5v-4l3 1.5Z"/></svg>
+          </div>
+          <strong class="stat__num" data-count="340000">0</strong>
+          <span class="stat__label">المعلمات</span>
+        </div>
+        <div class="stat reveal">
+          <div class="stat__icon">
+            <svg viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="6.5"/></g><g fill="currentColor"><circle cx="12" cy="3.5" r="2"/><circle cx="12" cy="20.5" r="2"/><circle cx="3.5" cy="12" r="2"/><circle cx="20.5" cy="12" r="2"/><circle cx="6" cy="6" r="1.6"/><circle cx="18" cy="6" r="1.6"/><circle cx="6" cy="18" r="1.6"/><circle cx="18" cy="18" r="1.6"/></g></svg>
+          </div>
+          <strong class="stat__num" data-count="23">0</strong>
+          <span class="stat__label">الحلقات</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Courses ============ -->
+    <section class="section section--alt" id="courses">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">أحدث الدورات</h2>
+          <a href="#" class="chip">عرض المزيد</a>
+        </div>
+
+        <div class="cards cards--3">
+          <article class="course card reveal">
+            <div class="course__media"><img src="assets/img/course-1.png" alt="حلقة تحفيظ للطالبات" loading="lazy"></div>
+            <h3 class="course__title">دورة تحفيظ القرآن للطلاب من عمر 6 إلى 12 عاماً</h3>
+            <dl class="course__dates">
+              <div><dt>تاريخ البدء</dt><dd>12 - نوفمبر - 2021</dd></div>
+              <div><dt>تاريخ الانتهاء</dt><dd>12 - نوفمبر - 2021</dd></div>
+            </dl>
+            <div class="course__price"><span>رسوم التسجيل</span> 45 ريال</div>
+          </article>
+
+          <article class="course card reveal">
+            <div class="course__media"><img src="assets/img/course-2.png" alt="حلقة تحفيظ في المسجد" loading="lazy"></div>
+            <h3 class="course__title">دورة تحفيظ القرآن للطلاب من عمر 6 إلى 12 عاماً</h3>
+            <dl class="course__dates">
+              <div><dt>تاريخ البدء</dt><dd>12 - نوفمبر - 2021</dd></div>
+              <div><dt>تاريخ الانتهاء</dt><dd>12 - نوفمبر - 2021</dd></div>
+            </dl>
+            <div class="course__price"><span>رسوم التسجيل</span> 45 ريال</div>
+          </article>
+
+          <article class="course card reveal">
+            <div class="course__media"><img src="assets/img/course-3.png" alt="طلاب في حلقة قرآن" loading="lazy"></div>
+            <h3 class="course__title">دورة تحفيظ القرآن للطلاب من عمر 6 إلى 12 عاماً</h3>
+            <dl class="course__dates">
+              <div><dt>تاريخ البدء</dt><dd>12 - نوفمبر - 2021</dd></div>
+              <div><dt>تاريخ الانتهاء</dt><dd>12 - نوفمبر - 2021</dd></div>
+            </dl>
+            <div class="course__price"><span>رسوم التسجيل</span> 45 ريال</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__col reveal">
+          <h2 class="about__title">عن المحجة</h2>
+          <p>منهل عذب من القرآن والسنة النبوية. نهر يشق طريقه نحو العطاء. بهمم تتوثب للخير والعلياء.</p>
+        </div>
+        <div class="about__emblem reveal">
+          <img src="assets/img/emblem.png" alt="شعار المحجة البيضاء" loading="lazy">
+        </div>
+        <div class="about__col reveal">
+          <h2 class="about__title">عن الحلقات</h2>
+          <p>حفظ القرآن والسنة النبوية والتسميع بالاتصال الهاتفي وفق خطط منهجية محددة وإشراف إداري منظم.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Jobs ============ -->
+    <section class="section section--alt" id="jobs">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">الوظائف المتوفرة</h2>
+          <a href="#" class="chip">عرض المزيد</a>
+        </div>
+
+        <div class="cards cards--3">
+          <article class="job card reveal">
+            <header class="job__head">
+              <span class="job__avatar"><svg><use href="#i-user"/></svg></span>
+              <div>
+                <h3 class="job__title">معلمة</h3>
+                <p class="job__desc">حفظ القرآن الكريم وإجادة التجويد</p>
+              </div>
+            </header>
+            <h4 class="job__req">الشروط</h4>
+            <ul class="job__list">
+              <li>إجادة اللغة العربية</li>
+              <li>إجادة قواعد النحو</li>
+            </ul>
+            <a href="#contact" class="job__apply">قدّمي الآن</a>
+          </article>
+
+          <article class="job card reveal">
+            <header class="job__head">
+              <span class="job__avatar"><svg><use href="#i-user"/></svg></span>
+              <div>
+                <h3 class="job__title">مشرفة إدارية</h3>
+                <p class="job__desc">إجادة استخدام الحاسب</p>
+              </div>
+            </header>
+            <h4 class="job__req">الشروط</h4>
+            <ul class="job__list">
+              <li>إجادة اللغة العربية</li>
+              <li>إجادة قواعد النحو</li>
+            </ul>
+            <a href="#contact" class="job__apply">قدّمي الآن</a>
+          </article>
+
+          <article class="job card reveal">
+            <header class="job__head">
+              <span class="job__avatar"><svg><use href="#i-user"/></svg></span>
+              <div>
+                <h3 class="job__title">مشرفة حلقات</h3>
+                <p class="job__desc">إجادة استخدام الحاسب</p>
+              </div>
+            </header>
+            <h4 class="job__req">الشروط</h4>
+            <ul class="job__list">
+              <li>إجادة اللغة العربية</li>
+              <li>إجادة قواعد النحو</li>
+            </ul>
+            <a href="#contact" class="job__apply">قدّمي الآن</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__intro reveal">
+          <span class="eyebrow">أرسل لنا</span>
+          <h2 class="contact__title">تواصل معنا الان وارسل استفسارك او اقتراحك</h2>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <div class="field field--full">
+            <label for="name">الإسم بالكامل</label>
+            <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required minlength="3" autocomplete="name">
+            <small class="field__error"></small>
+          </div>
+
+          <div class="field">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" placeholder="user@example.com" dir="ltr" required autocomplete="email">
+            <small class="field__error"></small>
+          </div>
+
+          <div class="field">
+            <label for="phone">رقم الهاتف</label>
+            <div class="phone" dir="ltr">
+              <input type="tel" id="phone" name="phone" placeholder="+966 5X XXX XXXX" required autocomplete="tel">
+              <img src="assets/img/flag.png" alt="" class="phone__flag">
+            </div>
+            <small class="field__error"></small>
+          </div>
+
+          <div class="field field--full">
+            <label for="message">رسالتك</label>
+            <textarea id="message" name="message" rows="5" placeholder="اترك رسالتك هنا" required minlength="10"></textarea>
+            <small class="field__error"></small>
+          </div>
+
+          <div class="field--full">
+            <button type="submit" class="btn btn--primary btn--wide">إرسال</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#home" class="footer__brand"><img src="assets/img/logo.png" alt="المحجة البيضاء" loading="lazy" width="402" height="106"></a>
+
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h3>العنوان</h3>
+          <p>مكة المكرمة، الشرائع</p>
+          <h3>الرقم الموحد</h3>
+          <p><a href="tel:1234567890" dir="ltr">1234567890</a></p>
+          <p class="muted">يمكنكم الاتصال بنا من الساعة 10:00 صباحاً حتى 6:00 مساءً</p>
+        </div>
+        <div class="footer__col">
+          <h3>التواصل بالواتس اب</h3>
+          <p><a href="#" dir="ltr">1234567890</a></p>
+          <h3>التواصل بالواتس اب</h3>
+          <p><a href="#" dir="ltr">1234567890</a></p>
+          <h3>التواصل على البريد الالكتروني</h3>
+          <p><a href="mailto:user@example.com">user@example.com</a></p>
+        </div>
+        <div class="footer__col">
+          <h3>المنصة</h3>
+          <ul>
+            <li><a href="#courses">الدورات</a></li>
+            <li><a href="#about">الحلقات</a></li>
+            <li><a href="#jobs">التوظيف</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3>مساعدة &amp; دعم</h3>
+          <ul>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#">اسئلة شائعة و اجابتها</a></li>
+            <li><a href="#">الشروط والأحكام</a></li>
+            <li><a href="#">الحسابات البنكية</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <ul class="socials socials--dark" aria-label="وسائل التواصل الاجتماعي">
+          <li><a href="#" aria-label="واتساب"><svg><use href="#i-whatsapp"/></svg></a></li>
+          <li><a href="#" aria-label="انستغرام"><svg><use href="#i-instagram"/></svg></a></li>
+          <li><a href="#" aria-label="تويتر"><svg><use href="#i-twitter"/></svg></a></li>
+          <li><a href="#" aria-label="يوتيوب"><svg><use href="#i-youtube"/></svg></a></li>
+          <li><a href="#" aria-label="تيليجرام"><svg><use href="#i-telegram"/></svg></a></li>
+        </ul>
+        <p>© جميع الحقوق محفوظة لـ المحجة البيضاء <span id="year"></span></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="العودة للأعلى"><svg><use href="#i-chevron"/></svg></button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
